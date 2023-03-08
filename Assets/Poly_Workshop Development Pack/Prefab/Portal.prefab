@@ -97,6 +97,7 @@ GameObject:
   - component: {fileID: 1817057501418112531}
   - component: {fileID: 1817057501418112529}
   - component: {fileID: 1817057501418112530}
+  - component: {fileID: 5665204233578197961}
   m_Layer: 0
   m_Name: EnterDestinationArrow
   m_TagString: Untagged
@@ -169,6 +170,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5665204233578197961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817057501418112540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1db78c40afda874e82f631a6cfc8ea5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleportObject: {fileID: 0}
 --- !u!1 &1817057501959548554
 GameObject:
   m_ObjectHideFlags: 0
